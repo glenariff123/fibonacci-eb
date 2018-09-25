@@ -1,0 +1,19 @@
+version: '3'
+services: 
+  api:
+    build:
+      args:
+        - http_proxy
+        - https_proxy   
+  client:
+    build:
+      args:
+        - http_proxy
+        - https_proxy      
+  worker:
+    build:
+      args:
+        - http_proxy
+        - https_proxy   
+     
+      
