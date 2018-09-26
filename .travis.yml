@@ -22,12 +22,13 @@ after_success:
   - docker push glenariff555/multi-worker
 
 
+
 # deploy:
 #   provider: elasticbeanstalk
 #   region: us-west-1
 #   app: multi-docker
 #   env: MultiDocker-env
-#   bucket_name: elasticbeanstalk-us-west-1-306476627547
+#   bucket_name: elasticbeanstalk-ap-southeast-2-101944250416
 #   bucket_path: docker-multi
 #   on:
 #     branch: master
